@@ -7,7 +7,7 @@ $(".custom-carousel").owlCarousel({
 });
 $(document).ready(function () {
   $(".custom-carousel .item").click(function () {
-    $(".custom-carousel .item").not($(this)).removeClass("active");
-    $(this).toggleClass("active");
+    $(".custom-carousel .item").not($(this)).removeClass("hover");
+    $(this).toggleClass("hover");
   });
 });
